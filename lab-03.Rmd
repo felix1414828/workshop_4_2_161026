@@ -52,7 +52,11 @@ glimpse(jan_feb_flights)
 
 ```{r}
 # which columns contain NA's
-
+jan_feb_flights |> 
+  summarise_all(
+    ~sum(is.na(.))
+  )
+  
 ```
 
 **Summary:**  
@@ -65,7 +69,7 @@ Did the GenAI explanation (if used) help you? Which language model you explored?
 What was clear or unclear? Did it make any errors or skip anything important? Did you fact-check? Did you need to provide follow-up prompts or clarifications, or was the first response sufficient?
 
 _Your answer here_
-
+Didn't use any AI!!
 ---
 
 # 2. Delays & Weather
