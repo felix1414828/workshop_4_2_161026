@@ -34,18 +34,19 @@ Are there missing values?
 
 ```{r}
 # explore the types of the columns in jan_feb_flights
-
+glimpse(jan_feb_flights)
+#the data type is given at the front of glimpse
 ```
 
 ```{r}
 # which columns are integer
-
+#year,month,day,dep_time,sched_dep_time,arr_time,sched_arr_time,flight
 
 # which columns are double
-
+#dep_delay,arr_delay,air_time,distance,hour,minute
 
 # which columns are character
-
+#carrier,tailnum,origin,dest
 
 ```
 
