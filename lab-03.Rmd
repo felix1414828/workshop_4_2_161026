@@ -1,6 +1,6 @@
 ---
 title: "Lab 03 – Critical-Responsible Use of GenAI for Data Science"
-author: "KIF: Felix Gibbons, User2, Kai Bentley"
+author: "KIF: Felix Gibbons, Issac Eames, Kai Bentley"
 date: "`r Sys.Date()`"
 output: html_document
 ---
